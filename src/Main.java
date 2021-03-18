@@ -47,7 +47,7 @@ public class Main {
 						flag= true;
 						//이름이 있다면 출력
 					}
-				}
+				} 
 				//flag가 false
 				if(!flag) {
 					System.out.println("없는 학생입니다");
