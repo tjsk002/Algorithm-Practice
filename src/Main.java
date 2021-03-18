@@ -35,12 +35,22 @@ public class Main {
 			String result = sc.next();
 			if(result.equals("y")) {
 				System.out.println("학생이름을 입력해주세요");
+				boolean flag = false;
+				//초기화
+				
 				//학생의 이름이 있는경우
 				String name = sc.next();
 				for(Student stu : list) {
+					//이름이 있다면 
 					if(stu.getName().equals(name)) {
 						System.out.println(stu.getName()+ "학생의 학번은: "+stu.getNo());
+						flag= true;
+						//이름이 있다면 출력
 					}
+				}
+				//flag가 false
+				if(!flag) {
+					System.out.println("없는 학생입니다");
 				}
 				
 			}else if(result.equals("n")) {
