@@ -14,7 +14,7 @@ public class Main {
 		char []arr;
 		//아스키 코드? 
 		arr = input.toCharArray();
-		
+		System.out.println("입력한 문자 : " + input);
 		for(int i=0; i<arr.length; i++) {
 			//대문자냐 소문자냐 구분먼저?
 			//소문자 a부터 z까지 / A - Z
