@@ -11,6 +11,7 @@ public class Main {
 		// 소수 = 1과 자시자신만 나누어 떨어지는 경우
 		boolean isPrimeNumber = true;
 		
+		
 		//for(int i=2; i <= num/2; i++) = 같음
 		for(int i=2; i<=num-1; i++) {
 			if(num % i ==0) {
