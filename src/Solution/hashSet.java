@@ -81,7 +81,7 @@ public class hashSet {
 		//for (int i = 0; i < tmp1.length(); i++) {
 			
 	//	}
-		//return true;
+		return true;
 		
 	}
 
