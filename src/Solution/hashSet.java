@@ -78,9 +78,9 @@ public class hashSet {
 		// tmp1 = [a,b,c]
 		// goodArr. 없으면 넣고 있으면 return false
 		
-		for (int i = 0; i < tmp1.length(); i++) {
+		//for (int i = 0; i < tmp1.length(); i++) {
 			
-		}
+	//	}
 		return true;
 		
 	}
