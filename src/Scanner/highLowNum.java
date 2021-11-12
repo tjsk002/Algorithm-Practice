@@ -19,7 +19,7 @@ public class highLowNum {
 		for (int i = 0; i < N; i++) {
 			arr[i] = sc.nextInt();
 		}
-//		sc.close();
+		sc.close();
 		Arrays.sort(arr);
 		System.out.println(arr[0] + " " + arr[N-1]);
 	}
