@@ -24,7 +24,6 @@ public class lowNumber {
 				System.out.printf(arr[i] + " ");
 			}
 		}
-		
 		sc.close();
 	}
 }
