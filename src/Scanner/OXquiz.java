@@ -17,6 +17,7 @@ public class OXquiz {
 		55
 		30
 		*/
+		
 		Scanner sc = new Scanner(System.in);
 		String arr[] = new String[sc.nextInt()];
 		
