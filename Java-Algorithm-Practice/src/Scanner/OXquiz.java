@@ -1,5 +1,6 @@
 package Scanner;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class OXquiz {
@@ -25,6 +26,8 @@ public class OXquiz {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.next();
 		}
+		
+		System.out.println(Arrays.deepToString(arr));
 		
 		sc.close();
 		
