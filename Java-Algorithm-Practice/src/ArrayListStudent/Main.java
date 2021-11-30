@@ -1,12 +1,11 @@
+package ArrayListStudent;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-
 public class Main {
 	public static void main(String[] args) {
-		
-		
+
 		//이름, 학번
 		Student stu1 = new Student("김애플", "20131841");
 		Student stu2 = new Student("반하나", "20131842");
@@ -62,7 +61,6 @@ public class Main {
 			}
 			
 		}
-		
 		
 		
 	}

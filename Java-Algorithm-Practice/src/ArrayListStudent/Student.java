@@ -1,6 +1,6 @@
+package ArrayListStudent;
 
 public class Student {
-	
 	private String name;
 	private String no;
 	
@@ -24,6 +24,5 @@ public class Student {
 		this.name = name;
 		this.no = no;
 	}
-	
 	
 }

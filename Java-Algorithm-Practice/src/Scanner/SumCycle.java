@@ -12,5 +12,7 @@ public class SumCycle {
 		int NewNum = ((originNum%10)*10)+((originNum/10)+(originNum%10)%10);
 		System.out.println(NewNum);
 		
+		System.out.println("test");
+		System.out.println("test");
 	}
 }
