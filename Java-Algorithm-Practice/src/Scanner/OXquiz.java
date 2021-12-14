@@ -37,6 +37,7 @@ public class OXquiz {
 			int sum = 0; // 합
 			
 			for (int j = 0; j < arr[i].length(); j++) {
+				// arr[i]번째의 문자열의 길이
 				if(arr[i].charAt(j) == 'O') {
 					cnt++;
 				}else {
