@@ -30,6 +30,5 @@ public class NumberCount {
 				}
 				System.out.println(count);
 		}
-		
 	}
 }
