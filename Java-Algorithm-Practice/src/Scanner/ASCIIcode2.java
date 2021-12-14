@@ -1,10 +1,10 @@
 package Scanner;
 import java.util.Scanner;
 
-public class ASCIIcode {
+public class ASCIIcode2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int ch = sc.next().charAt(0);
-		System.out.println(ch);
+		// 아스키 코드 변환 A = 65
+		// 65 = A
 	}
 }
