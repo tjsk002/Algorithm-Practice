@@ -1,7 +1,6 @@
 package Scanner;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class AvgOver {
 	public static void main(String[] args) {
@@ -31,14 +30,15 @@ public class AvgOver {
 			}
 			System.out.println(sum); // 350.0
 			
-			double firstAvg = sum/n; // 70.0
-			System.out.println(firstAvg);
+			double avg = sum/n; // 70.0
+			double count = 0; // 평균 넘는 인원 숫자
 			
 			for (int j = 0; j < n; j++) {
-				double result = (j/n) * 100;
-				System.out.println(result);
+				if(arr[j] > avg) {
+					count++; // count -> 2.0
+				}
 			}
+			System.out.printf("%.3f", (count/n)*100);
 		}
-
 	}
 }
