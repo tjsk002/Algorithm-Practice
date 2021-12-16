@@ -2,7 +2,6 @@ package Buffered;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Arrays;
 
 public class AlphabetSearch {
 	public static void main(String[] args) throws IOException {
@@ -14,7 +13,7 @@ public class AlphabetSearch {
 			arr[i] = -1;
 		}
 		
-s		for(int i = 0; i<str.length(); i++) {
+		for(int i = 0; i<str.length(); i++) {
 			char ch = str.charAt(i);
 			if(arr[ch - 'a'] == -1) {
 				arr[ch - 'a'] = i;
