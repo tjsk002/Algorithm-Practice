@@ -6,8 +6,11 @@ public class AvgOver {
 	public static void main(String[] args) {
 		// 백준 평균은 넘겠지 4344번 Q
 		/*
-		 * 5 5 50 50 70 80 100 7 100 95 90 80 70 60 50 3 70 90 80 3 70 90 81 9 100 99 98
-		 * 97 96 95 94 93 91
+		 * 5 5 50 50 70 80 100 
+		 * 7 100 95 90 80 70 60 50 
+		 * 3 70 90 80
+		 * 3 70 90 81 
+		 * 9 100 99 98 97 96 95 94 93 91
 		 * 
 		 * 40.000% 57.143% 33.333% 66.667% 55.556%
 		 */
@@ -28,7 +31,7 @@ public class AvgOver {
 				// for문 끝나면 [50, 50, 70, 80, 100]
 				sum += arr[j];
 			}
-			System.out.println(sum); // 350.0
+//			System.out.println(sum); // 350.0
 			
 			double avg = sum/n; // 70.0
 			double count = 0; // 평균 넘는 인원 숫자
@@ -38,7 +41,7 @@ public class AvgOver {
 					count++; // count -> 2.0
 				}
 			}
-			System.out.printf("%.3f", (count/n)*100);
+			System.out.printf("%.3f%%", (count/n)*100);
 		}
 	}
 }
