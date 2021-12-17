@@ -29,8 +29,7 @@ class AvgOverTest{
             
             for(int j=0; j<n; j++){
                 if(arr[j] > avg){
-                    // arr[j]가 평균 점수보다 높으면 cnt++ 더해주고
-                    cnt++; // cnt -> 2
+                    cnt++;
                 }
             }
             
