@@ -17,7 +17,7 @@ public class AvgOver {
 
 		Scanner sc = new Scanner(System.in);
 		int fristN = sc.nextInt(); // 처음입력값
-		int arr[];
+		int[] arr;
 
 		for (int i = 0; i < fristN; i++) {
 			int n = sc.nextInt();
@@ -33,7 +33,7 @@ public class AvgOver {
 			}
 //			System.out.println(sum); // 350.0
 			
-			double avg = sum/n; // 70.0
+			double avg = (sum/n); // 70.0
 			double count = 0; // 평균 넘는 인원 숫자
 			
 			for (int j = 0; j < n; j++) {
@@ -43,5 +43,6 @@ public class AvgOver {
 			}
 			System.out.printf("%.3f%%", (count/n)*100);
 		}
+		sc.close();
 	}
 }
