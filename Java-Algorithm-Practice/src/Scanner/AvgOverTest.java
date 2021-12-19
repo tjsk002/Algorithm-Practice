@@ -32,7 +32,6 @@ class AvgOverTest{
                     cnt++;
                 }
             }
-            
             System.out.printf("%.3f%%\n", (cnt/n)*100);
         }
         sc.close();
