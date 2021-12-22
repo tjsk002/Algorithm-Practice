@@ -22,6 +22,7 @@ public class AlphabetSearch {
 //		System.out.println(str.length());
 		for(int i=0; i<str.length(); i++) {
 			char ch = str.charAt(i);
+			System.out.println("###" + ch);
 //			System.out.println(ch);
 			if(arr[ch - 'a'] == -1) {
 				// 첫번째 알파벳만 있으면
