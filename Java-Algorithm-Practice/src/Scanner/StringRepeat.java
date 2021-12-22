@@ -6,18 +6,18 @@ public class StringRepeat {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int T = sc.nextInt();
-		int[] arr = new int[T];
-
+		int T = sc.nextInt(); // 맨처음 숫자
+		
 		for (int i = 0; i < T; i++) {
-			System.out.println("숫자을 입력해주세요.");
-			int R = sc.nextInt();
-			System.out.println("숫자와 단어를 입력해주세요.");
-			String S = sc.next();
-			for (int j = 0; j < arr.length; j++) {
-
-				System.out.println(arr[j]);
+			int R = sc.nextInt(); // 두번째 입력 숫자
+			String S = sc.next(); // String 입력
+			
+			for (int j = 0; j < S.length(); j++) {
+				for (int j2 = 0; j2 < R; j2++) {
+					System.out.print(S.charAt(j));
+				}
 			}
+			System.out.println();
 		}
 
 	}
