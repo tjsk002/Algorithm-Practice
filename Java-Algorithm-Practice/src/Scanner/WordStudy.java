@@ -21,13 +21,12 @@ public class WordStudy {
 			char ch = str.charAt(i);
 			arr[ch - 65]++;
 			
-			if (max < arr[ch - 65]) {
+			if (max < arr[ch - 'A']) {
 				// arr[7]
-				max = arr[ch - 65];
+				max = arr[ch - 'A'];
 				// max = arr[7] == H
 				result = str.charAt(i);
-				System.out.println("**" + max);
-			} else if (max == arr[str.charAt(i) - 65]) {
+			} else if (max == arr[str.charAt(i) - 'A']) {
 				result = '?';
 			}
 		}
