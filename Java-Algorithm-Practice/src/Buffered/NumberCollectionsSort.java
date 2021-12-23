@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
+
 import java.io.IOException;
 
 public class NumberCollectionsSort {
@@ -18,8 +19,16 @@ public class NumberCollectionsSort {
 		}
 
 		Arrays.sort(arr);
-
+		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		bf.close();
+		
+		for (int i = 0; i < arr.length; i++) {
+			bw.write(String.valueOf(arr[i]));
+			bw.write("\n");
+		}
+		
 		bw.flush();
+		bw.close();
 	}
 }
