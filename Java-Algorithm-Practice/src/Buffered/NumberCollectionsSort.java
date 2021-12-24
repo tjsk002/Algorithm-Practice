@@ -28,7 +28,7 @@ public class NumberCollectionsSort {
 			bw.write("\n");
 		}
 		
-		bw.flush();
+		bw.flush(); // 필수로 넣어줘야한다
 		bw.close();
 	}
 }
