@@ -9,5 +9,8 @@ public class StringBuilderTest {
 		sb.append("hello");
 		System.out.println(sb);
 		System.out.println(sb.toString());
+		for (int i = 0; i < args.length; i++) {
+			
+		}
 	}
 }
