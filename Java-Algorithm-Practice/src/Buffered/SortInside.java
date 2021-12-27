@@ -8,25 +8,13 @@ import java.util.*;
 public class SortInside {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-//		int[] arr = new int[n];
-		
-		Integer[] arr = new Integer[n];
-		Integer arr2[] = {2,3,4,5,6,6,4};
-		
-		Arrays.sort(arr, Collections.reverseOrder());
-		Arrays.sort(arr2, Collections.reverseOrder());
-		
-		for (int i = 0; i < arr.length; i++) {
-			
+		char[] arr = br.readLine().toCharArray();
+		// ют╥б 2143 -> 4321
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+		for (int i = arr.length-1; i >= 0; i--) {
+			System.out.print(arr[i]);
 		}
 		
-		for(int result : arr2) {
-			System.out.println(result);
-		}
-		
-		for(int result : arr) {
-			System.out.println(result);
-		}
 	}
 }
