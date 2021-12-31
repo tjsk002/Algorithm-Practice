@@ -1,20 +1,27 @@
 package Scanner;
-import java.util.Arrays;
+
 
 public class StringTest {
 	public static void main(String[] args) {
-		String str = new String();
-		str = "테스트중입니다";
-		char result = str.charAt(0);
-//		System.out.println(result);
-		int[] arr = new int[26];
-		
-		System.out.println(Arrays.toString(arr));
-		for(int i = 0; i<str.length(); i++) {
-			char ch = str.charAt(i);
-			
-			System.out.println(ch);
-		}
-		
+		Student stu = new Student("김애플", "여자", 26);
+		System.out.println(stu);
 	}
 }
+
+ class Student {
+	private String name; // 이름
+	private String gender; // 성별
+	private Integer age; //나이
+	
+	public Student(String name, String gender, int age) {
+		this.name = name;
+		this.gender = gender;
+		this.age = age;
+	}
+	
+	@Override
+	public String toString() {
+		return "이름은 " + name + " 성별은 " + gender + " 나이는 " + age + "입니다.";
+	}
+}
+
