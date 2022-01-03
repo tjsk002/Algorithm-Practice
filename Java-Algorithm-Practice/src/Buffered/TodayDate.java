@@ -9,5 +9,7 @@ public class TodayDate {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd");
 		Date date = new Date();
 		System.out.println(sdf.format(date));
+		
+		
 	}
 }
