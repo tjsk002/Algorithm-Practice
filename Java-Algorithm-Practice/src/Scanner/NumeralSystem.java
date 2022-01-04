@@ -19,6 +19,7 @@ public class NumeralSystem {
 //			str = n % 3 + str;
 //			n /= 3;
 //		}
+		System.out.println();
 
 		StringBuffer sb = new StringBuffer(NewStr);
 		sb.reverse();
