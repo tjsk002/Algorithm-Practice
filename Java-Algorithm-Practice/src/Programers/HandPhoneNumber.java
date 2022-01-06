@@ -9,6 +9,8 @@ public class HandPhoneNumber {
 		String phoneNum = "0212341223";
 		String result = "";
 		
+		long longTest = 1;
+//		int intTest = 1L;
 		result = phoneNum.replaceAll(".(?=.{4})", "*");
 		
 		System.out.println("정규식으로 풀기 = " + result);
