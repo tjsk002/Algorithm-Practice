@@ -1,7 +1,5 @@
 package Programers;
 
-import javax.xml.bind.ParseConversionEvent;
-
 public class Sum {
 	public static void main(String[] args) {
 		int n = 123;
