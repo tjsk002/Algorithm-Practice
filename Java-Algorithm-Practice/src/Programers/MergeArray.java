@@ -18,6 +18,7 @@ public class MergeArray {
 				nums.set(mergedLastIndex, nums2.get(nums2LastIndex));
 				--nums2LastIndex;
 			}
+			
 			--mergedLastIndex;
 			System.out.println(nums);
 		}
