@@ -9,7 +9,7 @@ public class Main {
 				a[i][j] = i + j;
 				System.out.printf("%d", a[i][j]);
 			}
-			System.out.println();
+			System.out.println("test");
 		}
 	}
 	
