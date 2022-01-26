@@ -11,21 +11,21 @@ public class Collatz {
 		int answer = 0;
 
 		while (num != 1) {
-			for (int i = 0; i < num; i++) {
-				if (num % 2 == 0) {
-					answer /= 2;
-					System.out.println(answer);
-				} else {
-					// È¦¼ö¶ó¸é
-					answer = num * 3 + 1;
-				}
 
-				answer++;
-				if (answer == 500) {
-					answer = -1;
-					break;
-				}
+			if (num % 2 == 0) {
+				num /= 2;
+
+			} else {
+				// È¦¼ö¶ó¸é
+				num = num * 3 + 1;
+			}
+			answer++;
+
+			if (answer == 500) {
+				answer = -1;
+				break;
 			}
 		}
+		System.out.println(answer);
 	}
 }
