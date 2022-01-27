@@ -1,8 +1,8 @@
 package Scanner;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class NumberCollectionsSort {
 	public static void main(String[] args) {

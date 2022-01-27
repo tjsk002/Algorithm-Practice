@@ -1,13 +1,6 @@
 package Solution;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.*;
 
 /*
  * 문자열의 s의 길이는 1이상 100이하이며, 알파벳 소문자로만 이루어져 있다

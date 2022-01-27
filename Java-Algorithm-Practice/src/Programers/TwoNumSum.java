@@ -2,6 +2,7 @@ package Programers;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class TwoNumSum {
@@ -24,7 +25,9 @@ public class TwoNumSum {
 			}
 		}
 		
-		answer = set.stream().sorted().mapToInt(Integer::intValue).toArray();
-		System.out.println(Arrays.toString(answer));
+//		answer = set.stream().sorted().mapToInt(Integer::intValue).toArray();
+//		System.out.println(Arrays.toString(answer));
+		
+		
 	}
 }

@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.Arrays;
-
 public class SelfNumber {
 	public static void main(String[] args) {
 		/*

@@ -1,6 +1,5 @@
 package Programers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class kNum {
