@@ -1,7 +1,5 @@
 package Programers;
 
-import java.util.Arrays;
-
 public class DivisorNumSum {
 	public static void main(String[] args) {
 		// 프로그래머스 약수의 개수와 덧셈
